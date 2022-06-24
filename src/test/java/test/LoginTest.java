@@ -33,13 +33,13 @@ public class LoginTest extends BaseTest{
 
 	@Test (priority=2)
 	public void login() {
-		
+		System.out.println("New Group");
 		lp.login("Admin", "admin123");
 		System.out.println(driver.getTitle());
 		
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
+		
 	}
-	
 	
 
 }
