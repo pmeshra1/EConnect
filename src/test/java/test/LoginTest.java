@@ -33,6 +33,7 @@ public class LoginTest extends BaseTest{
 
 	@Test (priority=2)
 	public void login() {
+		//new change
 		System.out.println("New Group");
 		lp.login("Admin", "admin123");
 		System.out.println(driver.getTitle());
