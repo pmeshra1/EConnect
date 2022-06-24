@@ -35,6 +35,7 @@ public class LoginTest extends BaseTest{
 	public void login() {
 		//new change
 		System.out.println("New Group");
+		//new change again
 		lp.login("Admin", "admin123");
 		System.out.println(driver.getTitle());
 		
